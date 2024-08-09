@@ -1,13 +1,14 @@
 name: Python formatting PEP8
 on: [push]
-runs-on: ubuntu-latest
 
 jobs:
-    steps:
+  command:
+    runs-on: ubuntu-latest
+      steps:
         - name: Checkout
           uses: actions/checkout@v4
         - uses: actions/setup-python@v4
-        with:
+          with:
             python-version: 3.12
 
         - name: Install dependencies
