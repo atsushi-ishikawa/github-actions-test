@@ -1,2 +1,2 @@
-def say_hello(name):
-    return f"Hello {name}!"
+def say_hello_dev(name):
+    return f"Hello {name}, from develop!"
